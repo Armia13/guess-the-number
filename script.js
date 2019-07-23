@@ -1,13 +1,13 @@
 /*
-let randomNumber;
+let randomNum;
 let wrongGuess;
-function reset() {
-  let randomNumber = parseInt(Math.random() * 10);
-  let wrongGuess = 0;
+function resetGame() {
+randomNum = parseInt(Math.random() * 10);
+wrongGuess = 0;
 }
-resetGame()
-let playerNum = parseInt(document.querySelector("input").value);
+resetGame();
 function checkResult() {
+let playerNum = parseInt(document.querySelector("input").value);
   if (playerNum < randomNum) {
     document.querySelector("#hint").innerHTML = "too small";
     wrongGuess++;
@@ -19,7 +19,6 @@ function checkResult() {
     resetGame()
   }
 }
-
 */
 let playerNum = parseInt(document.querySelector("input").value);
 let randomNum = parseInt(Math.random() * 10);
