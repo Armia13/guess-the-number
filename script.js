@@ -1,3 +1,26 @@
+/*
+let randomNumber;
+let wrongGuess;
+function reset() {
+  let randomNumber = parseInt(Math.random() * 10);
+  let wrongGuess = 0;
+}
+resetGame()
+let playerNum = parseInt(document.querySelector("input").value);
+function checkResult() {
+  if (playerNum < randomNum) {
+    document.querySelector("#hint").innerHTML = "too small";
+    wrongGuess++;
+  } else if (playerNum > randomNum) {
+    document.querySelector("#hint").innerHTML = "too big";
+    wrongGuess++;
+  } else {
+    document.querySelector("#result").innerHTML = "you won" + wrongGuess;
+    resetGame()
+  }
+}
+
+*/
 let playerNum = parseInt(document.querySelector("input").value);
 let randomNum = parseInt(Math.random() * 10);
 function checkResult(){
