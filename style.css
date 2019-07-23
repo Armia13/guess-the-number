@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://helios.work/wp-content/uploads/2017/03/question-marks-background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+}
+
+#game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 50%;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+h2{
+    margin:0;
+}
+
+#levels{
+    margin: 10px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GTN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game">
+    <h1>GUESS THE NUMBER</h1>
+    <h2>Select Level</h2>
+    <div id="levels">
+        <button class="easy" onclick="easyLvl()">Easy</button>
+        <button class="medium" onclick="medLvl()">Medium</button>
+        <button class="hard" onclick="hardLvl()">Hard</button>
+    </div>
+    <div id="userNum">
+        <input type="number">
+        <button onclick="checkResult()">Check</button>
+    </div>
+    <h3 id="hint"></h3>
+    <p id="result"></p>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
